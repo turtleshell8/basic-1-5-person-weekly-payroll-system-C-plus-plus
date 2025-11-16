@@ -103,6 +103,7 @@ int main()
 		std::cout << "payroll: " << worker_3_weekly_pay << "\n";
 		std::cout << "name: " << worker_4 << "\n";
 		std::cout << "payroll: " << worker_4_weekly_pay << "\n";
+		std::cin >> exit;
 	}
 	if (workers == 5) {
 		string worker_1 = "";
@@ -138,7 +139,9 @@ int main()
 		std::cout << "payroll: " << worker_3_weekly_pay << "\n";
 		std::cout << "name: " << worker_4 << "\n";
 		std::cout << "payroll: " << worker_4_weekly_pay << "\n";
+		std::cin >> exit;
 	}
 	return 0;
 }
+
 
